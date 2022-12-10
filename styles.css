@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: #c3bfca;
+    width: 434px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 18px 0;
+    font-size: 20px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: #e3e3e3;  
+    width: 122vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    /* background-color: rgb(47, 181, 168); */
+    height: 50vh;
+    width: 75vw;
+    margin: 87px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.hello{
+    font-size: 60px;
+    color: #1e6fa1;
+}
+.name{
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #1e6fa1;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.moreAbout{
+    font-size: 20px;
+    margin-top: 9px;
+
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(37, 106, 195);
+}
+
+.buttons button:hover{
+    color: rgb(70, 156, 243);
+    background-color: white;
+}
+
+.devPic img{
+    height: 47vh;
+    max-width: 100%;
+
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    margin:6px;
+    text-align: left;
+    color: #303078;
+}
+
+.contactform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    margin: 6px 0px;
+    height: 23px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 45%;
+}
+#emailHelp {
+    font-size: 14px;
+    color: #303078;
+
+}
+
+button.btn.btn-primary {
+    margin: 9px;
+    padding: 6px 25px;
+    border-radius: 5px;
+    background-color: #181878;
+    color: whitesmoke;
+}
+
+input#isclient {
+    width: 21px;
+    margin: 0;
+}
+
+#form-check{
+    flex-direction: row;    
+}
+label.form-check-label {
+    margin: 3px;
+    padding-left: 9px;
+}
+
+
+
+
+
